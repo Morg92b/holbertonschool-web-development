@@ -1,0 +1,88 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* ================= HEADER ================= */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    position: absolute;
+    width: 100%;
+}
+
+.header nav a {
+    margin-left: 30px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* ================= HERO ================= */
+
+.hero {
+    background: url("assets/background-hero.png") no-repeat center/cover;
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+/* HERO TEXT */
+
+.hero-content h1 {
+    font-size: 100px;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    margin-bottom: 20px;
+    word-spacing: 40px;
+    font-size: 16px;
+}
+
+.hero-content button {
+    background: #C271FF;
+    border: none;
+    padding: 15px 30px;
+    color: white;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* ================= PROS ================= */
+
+.pros {
+    margin-top: 100px;
+}
+
+.learn {
+    color: #C271FF;
+}
+.pros h2 {
+    margin-bottom: 50px;
+}
+
+.pros > div {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.pros img {
+    width: 100px;
+    border-radius: 50%;
+}
