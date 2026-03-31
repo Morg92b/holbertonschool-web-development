@@ -44,7 +44,7 @@ body {
 
 .hero-content h1 {
     font-size: 100px;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 
 .hero-content p {
@@ -85,4 +85,13 @@ body {
 .pros img {
     width: 100px;
     border-radius: 50%;
+}
+
+.pro p {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.pro img {
+    margin-bottom: 10px;
 }
