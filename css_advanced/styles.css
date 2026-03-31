@@ -95,3 +95,141 @@ body {
 .pro img {
     margin-bottom: 10px;
 }
+
+/* ================= QUOTE ================= */
+
+.quote {
+    background: #C271FF;
+    color: white;
+    padding: 80px 0;
+}
+
+.quote-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* Image */
+.quote-container img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.quote-text {
+    max-width: 500px;
+}
+
+.quote-text blockquote {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.quote-text .author {
+    font-weight: bold;
+}
+
+.quote-text .job {
+    font-style: italic;
+    opacity: 0.8;
+}
+/* ================= VIDEOS ================= */
+
+.videos {
+    padding: 80px 0;
+    text-align: center;
+}
+
+.videos h1 {
+    margin-bottom: 50px;
+}
+
+.videos h1 span {
+    color: #C271FF;
+}
+
+/* LIST */
+
+.videos-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* CARD */
+
+.video {
+    width: 250px;
+    text-align: left;
+}
+
+/* IMAGE */
+
+.video img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+/* TITLE */
+
+.video h2 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* TEXT */
+
+.video p {
+    font-size: 14px;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+/* AUTHOR */
+
+.video-author {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.video-author img {
+    width: 30px;
+    border-radius: 50%;
+}
+
+.video-author h3 {
+    font-size: 14px;
+    color: #C271FF;
+}
+
+/* RATING */
+
+.video-rating {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.video-rating div {
+    display: flex;
+    gap: 5px;
+}
+
+.video-rating img {
+    width: 107px;
+    height: 15px;
+}
+
+.video-rating p {
+    font-size: 12px;
+    color: #C271FF;
+}
