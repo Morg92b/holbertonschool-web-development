@@ -299,3 +299,100 @@ body {
     font-weight: bold;
     cursor: pointer;
 }
+
+/* ================= FAQ ================= */
+
+.faq {
+    padding: 80px 0;
+}
+
+.faq h1 {
+    text-align: center;
+    margin-bottom: 60px;
+    font-weight: 100;
+}
+
+/* CONTAINER */
+
+.faq-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* ROW */
+
+.faq-row {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+/* ITEM */
+
+.faq-item {
+    flex: 1;
+}
+
+/* QUESTION */
+
+.faq-item h2 {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+/* TEXT */
+
+.faq-item p {
+    font-size: 14px;
+    color: #07162980;
+    line-height: 1.6;
+}
+
+/* ================= FOOTER ================= */
+
+.footer {
+    background: #071629;
+    color: white;
+    padding: 40px 0;
+}
+
+/* CONTAINER */
+
+.footer-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* TOP PART */
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+/* LOGO */
+
+.footer-top img {
+    width: 120px;
+}
+
+/* SOCIALS */
+
+.socials {
+    display: flex;
+    gap: 20px;
+}
+
+.socials img {
+    width: 20px;
+}
+
+/* TEXT */
+
+.footer p {
+    font-size: 12px;
+    opacity: 0.6;
+}
